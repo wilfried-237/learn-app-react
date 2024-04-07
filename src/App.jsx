@@ -2,9 +2,10 @@
 // import Header from "./Header.jsx"
 // import Footer from "./Footer.jsx"
 // import List from "./List.jsx"
-import Button from "./Button.jsx"
-import MyComponent from "./MyComponent.jsx";
-import Counter from "./Counter.jsx";
+// import Button from "./Button.jsx"
+// import MyComponent from "./MyComponent.jsx";
+// import Counter from "./Counter.jsx";
+import Form from "./Form"
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
   //                     {key: 6, name: "Bryan", role: "React Developer"}];
 
 
-  const handleClick = (e) => e.target.textContent = "Just Clicked";
+  // const handleClick = (e) => e.target.textContent = "Just Clicked";
 
 
   
@@ -25,7 +26,7 @@ function App() {
   return(
     <>
 
-      <Counter />
+      <Form />
 
       {/* <Header />
       <List lists={developers} />
