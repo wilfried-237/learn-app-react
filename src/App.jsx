@@ -6,7 +6,10 @@
 // import MyComponent from "./MyComponent.jsx";
 // import Counter from "./Counter.jsx";
 // import Form from "./Form"
-import ColorPicker from "./ColorPicker"
+// import ColorPicker from "./ColorPicker"
+// import Car from "./Car"
+// import Food from "./Food"
+import ToDoList from "./ToDoList"
 
 function App() {
 
@@ -27,7 +30,7 @@ function App() {
   return(
     <>
 
-      <ColorPicker />
+      <ToDoList />
 
       {/* <Header />
       <List lists={developers} />

@@ -2,8 +2,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   /* margin: 0;
   padding: 0; */
-  min-height: 100vh;
-  text-align: center;
+  min-height: 95vh;
 }
 
 header{
@@ -73,5 +72,63 @@ footer{
   text-align: center;
   align-items: center;
   transition: 0.25s ease;
+  padding: 10px;
+}
 
+
+.deleteButton{
+  background-color: hwb(13 4% 0%);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 15%;
+  color: hsl(0, 0%, 100%);
+  margin: 5px;
+  cursor: pointer;
+}
+
+.addTaskButton{
+  background-color: hsl(117, 100%, 41%);
+  padding: 10px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  width: 20%;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  margin: 0;
+  margin-left: -1px;
+}
+
+.taskAppDiv{
+  padding: 0px;
+}
+
+.taskAppDiv h1{
+  text-align: center;
+}
+.addTask{
+  text-align: center;
+}
+.addTask input{
+  padding: 9px;
+  border: 1px solid hsl(0, 0%, 70%);
+  outline: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+
+.taskList ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid hsl(0, 0%, 80%);
+  padding: 10px 20px;
+  margin: 10px 0px;
+  margin-left: -35px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.taskList ul li:hover{
+  background-color: hsl(0, 0%, 90%);
 }
