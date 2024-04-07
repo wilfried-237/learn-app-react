@@ -62,3 +62,15 @@ footer{
   margin-top: 10px;
   color: hsl(0, 0%, 100%);
 }
+
+.colored-div{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px hsl(0, 0%, 50%);
+  text-align: center;
+  align-items: center;
+
+}
