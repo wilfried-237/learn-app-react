@@ -1,10 +1,9 @@
+import propTypes from "prop-types"
 import Card from "./Card/Card";
 
-function List(){
+function List(props){
 
-    const developers = [{key: 1, name:"Nik", role: "PHP Developer"}, 
-                        {key: 2, name:"Dan Lock", role: "Django Developer"},
-                        {key: 3, name: "Zain Dev", role: "React Developer"}];
+    const developers = props.lists
 
     const devList = developers.map(developer => <Card key={developer.key} name={developer.name} role={developer.role} />);
 
@@ -13,6 +12,18 @@ function List(){
                 {devList}
             </>
     );
+}
+
+List.propTypes = {
+    lists: propTypes.arrayOf(propTypes.shape({
+        key: propTypes.number,
+        name: propTypes.string,
+        role: propTypes.string,
+    }))
+}
+
+List.defaultProps ={
+    lists: [],
 }
 
 export default List
