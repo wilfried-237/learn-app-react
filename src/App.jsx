@@ -3,6 +3,8 @@
 // import Footer from "./Footer.jsx"
 // import List from "./List.jsx"
 import Button from "./Button.jsx"
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
   return(
     <>
 
-      <button onClick={handleClick}>Click me</button>
+      <Counter />
 
       {/* <Header />
       <List lists={developers} />
