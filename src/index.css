@@ -72,5 +72,6 @@ footer{
   box-shadow: 1px 1px 5px hsl(0, 0%, 50%);
   text-align: center;
   align-items: center;
+  transition: 0.25s ease;
 
 }
