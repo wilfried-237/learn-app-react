@@ -15,10 +15,10 @@ function Form(){
 
     return(
         <div>
-            <input onChange={handleNameChange} type="text" />
-            
-
-            <input onChange={handleRoleChange} type="text" />
+            <input placeholder="Enter Name" onChange={handleNameChange} type="text" />
+            <br />
+            <br />
+            <input placeholder="Enter Role" onChange={handleRoleChange} type="text" />
             
             <h1>Name: {name}</h1>
             <h1>Role: {role}</h1>
