@@ -9,8 +9,9 @@
 // import ColorPicker from "./ColorPicker"
 // import Car from "./Car"
 // import Food from "./Food"
-import MyComponent from './MyComponent';
-import ToDoList from "./ToDoList";
+// import MyComponent from './MyComponent';
+// import ToDoList from "./ToDoList";
+import Clock from './Clock';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
   return(
     <>
 
-      <ToDoList />
+      <Clock />
 
       {/* <Header />
       <List lists={developers} />
