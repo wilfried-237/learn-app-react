@@ -9,7 +9,8 @@
 // import ColorPicker from "./ColorPicker"
 // import Car from "./Car"
 // import Food from "./Food"
-import ToDoList from "./ToDoList"
+import MyComponent from './MyComponent';
+import ToDoList from "./ToDoList";
 
 function App() {
 
