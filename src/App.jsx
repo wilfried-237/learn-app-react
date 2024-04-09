@@ -11,7 +11,8 @@
 // import Food from "./Food"
 // import MyComponent from './MyComponent';
 // import ToDoList from "./ToDoList";
-import Clock from './Clock';
+// import Clock from './Clock';
+import ComponentA from './ComponentA';
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
   return(
     <>
 
-      <Clock />
+      <ComponentA />
 
       {/* <Header />
       <List lists={developers} />
