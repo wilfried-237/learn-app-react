@@ -178,3 +178,67 @@ footer{
   border: 3px solid black;
   padding: 25px;
 }
+
+.stopWatch{
+  border: 10px solid hsla(0, 0%, 0%, 0.8);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 150px;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.stopWatch p{
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 10px 0px 30px 0px;
+}
+
+.startButton{
+  background-color: hsl(117, 100%, 41%);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  color: hsl(0, 0%, 100%);
+  margin: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.stopButton{
+  background-color: hsl(0, 100%, 41%);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  color: hsl(0, 0%, 100%);
+  margin: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.resetButton{
+  background-color: hsl(201, 87%, 49%);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  color: hsl(0, 0%, 100%);
+  margin: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.startButton:hover{
+  background-color: hsl(117, 100%, 31%);
+}
+.stopButton:hover{
+  background-color: hsl(0, 100%, 31%);
+}
+.resetButton:hover{
+  background-color: hsl(201, 87%, 39%);
+}

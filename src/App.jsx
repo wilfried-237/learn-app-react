@@ -12,7 +12,10 @@
 // import MyComponent from './MyComponent';
 // import ToDoList from "./ToDoList";
 // import Clock from './Clock';
-import ComponentA from './ComponentA';
+// import ComponentA from './ComponentA';
+
+import StopWatch from "./StopWatch"
+
 
 function App() {
 
@@ -32,9 +35,8 @@ function App() {
 
   return(
     <>
-
-      <ComponentA />
-
+      
+      <StopWatch />
       {/* <Header />
       <List lists={developers} />
       <List lists={devops} />

@@ -7,8 +7,6 @@ export const UserContext = createContext();
 const ComponentA = () => {
   const [user, setUser] = useState("wilsweb");
 
-  
-
   return (
     <div className="box">
       <p>ComponentA</p>
