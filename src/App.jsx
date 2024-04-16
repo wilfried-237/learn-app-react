@@ -48,7 +48,7 @@ function App() {
       <Card name="Maaz Gig" role="React Developer" />  
       <Card />
       <Card />
-      <Footer />    */}
+      <Footer />     */}
     </>
   )
 }
